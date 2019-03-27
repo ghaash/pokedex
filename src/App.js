@@ -19,6 +19,23 @@ class App extends Component {
           >
             Learn React
           </a>
+          {/*
+          1. have a text box in which the user types in a pokemon name
+          2. clicks submit
+          3. the value is passed to fetch()
+          4. fetch() calls the pokeapi with the submitted value
+          */}
+          <div>
+            <p>
+            <form>
+              <label>
+                Name:
+                <input type="text" name="name" />
+              </label>
+              <input type="submit" value="Submit" />
+            </form>
+            </p>
+          </div>
         </header>
       </div>
     );
